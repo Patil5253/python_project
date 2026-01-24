@@ -35,27 +35,25 @@ NLTK / TextBlob (if used)** – Sentiment analysis
 
 ---
 
-## 📊 Modules Description
+📊 Modules Description
 
-### 1️⃣ Recommendation System (`recommender.py`)
+ 1️⃣ Recommendation System (`recommender.py`)
+ Suggests items based on user behavior or historical data
+ Uses similarity or rule-based logic
+ Can be extended for collaborative or content-based filtering
 
-* Suggests items based on user behavior or historical data
-* Uses similarity or rule-based logic
-* Can be extended for collaborative or content-based filtering
+2️⃣ Sentiment Analysis (`sentiment.py`)
 
-### 2️⃣ Sentiment Analysis (`sentiment.py`)
+Analyzes text reviews from `reviews.csv`
+ Classifies sentiments as **Positive / Negative / Neutral**
+ Useful for customer feedback analysis
+ 3️⃣ Market Basket Analysis (`mba.py`)
 
-* Analyzes text reviews from `reviews.csv`
-* Classifies sentiments as **Positive / Negative / Neutral**
-* Useful for customer feedback analysis
+ Uses transaction data from `transactions.csv`
+ Applies **association rule mining** (Apriori/FP-Growth)
+ Helps identify frequently bought item combinations
 
-### 3️⃣ Market Basket Analysis (`mba.py`)
-
-* Uses transaction data from `transactions.csv`
-* Applies **association rule mining** (Apriori/FP-Growth)
-* Helps identify frequently bought item combinations
-
-### 4️⃣ Main Application (`app.py`)
+ 4️⃣ Main Application (`app.py`)
 
 * Integrates all modules
 * Acts as the execution point for running analysis
