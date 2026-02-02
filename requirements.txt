@@ -1,9 +1,0 @@
-pandas
-numpy
-mlxtend
-nltk
-textblob
-vaderSentiment
-scikit-learn
-streamlit
-
